@@ -1,0 +1,25 @@
+# vsim work.tb_QPSK_Sys 
+# Start time: 16:11:50 on Mar 18,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_qpsk_sys(behavior)
+# Loading work.clkgen(behavior)
+# Loading work.rbgen(arch)
+# Loading work.s2p(arch)
+# Loading work.p2s(arch)
+# Loading work.qpsk(arch)
+# Loading work.qpsk_de(arch)
+add wave -position end  sim:/tb_qpsk_sys/nrst
+add wave -position end  sim:/tb_qpsk_sys/clk2x
+add wave -position end  sim:/tb_qpsk_sys/clk1x
+add wave -position end  sim:/tb_qpsk_sys/rbit
+add wave -position end  sim:/tb_qpsk_sys/outbits
+add wave -position end  sim:/tb_qpsk_sys/rmapout
+add wave -position end  sim:/tb_qpsk_sys/imapout
+add wave -position end  sim:/tb_qpsk_sys/QPSK_outbits
+add wave -position end  sim:/tb_qpsk_sys/finalbit
+run 10 us
+run 10 us
+exit
